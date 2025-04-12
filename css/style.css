@@ -1,0 +1,48 @@
+body {
+    background-color: lavender;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-logo {
+    height: 50px;
+    width: 50px;
+    background-image: url(https://picsum.photos/200);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav>a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    padding: 8px; 
+}
+
+.banner-img {
+    height: 400px;
+    background-image: url(https://picsum.photos/1000);
+    background-size: cover;
+    background-position: center;
+}
+
+main>section {
+    height: 800px;
+}
+
+.section-content {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
