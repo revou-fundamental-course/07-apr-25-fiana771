@@ -12,7 +12,6 @@
 
 <body>
 
-    <script src="js\script.js"></script>
     <!-- Header Content -->
     <header class="main-header">
         <!-- Logo -->
@@ -36,12 +35,14 @@
         <!-- Home Section -->
         <section id="home-section">
             <header>
-                <h2>Hello <span id="name">Nana</span>Welcome to My Website</h2>
-                <button id="tombol">Change Name</button>
+                <h2>Hello _, Welcome to My Website</h2>
             </header>
 
             <!-- Banner Content -->
-            <div class="banner-img"></div>
+            <div class="banner-img banner-1"></div>
+            <div class="banner-img banner-2"></div>
+            <div class="banner-img banner-3"></div>
+
 
             <!-- Banner Text -->
             <article class="section-content">
@@ -110,7 +111,27 @@
             </header>
 
             <!-- Message Us Form -->
-            <form></form>
+            <form name="message-form" onsubmit="return validateForm()">
+                Name: <input required placeholder="Enter Your Name" type="text" name="full-name" />
+                <br />
+
+                Date of Birth:
+                <input required type="date" name="birth-date" />
+                <br />
+
+                Gender:
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="male">Male</label>
+                <input required type="radio" id="female" name="gender" value="female" />
+                <label for="female">Female</label>
+                <br />
+
+                Message:
+                <textarea required placeholder="Message" name="messages"></textarea>
+                <br />
+
+                <input type="submit" value="Submit" />
+            </form>
         </section>
     </main>
 
@@ -120,6 +141,9 @@
     <footer>
         <span>Made by Fiana@2025</span>
     </footer>
+
+    <script src="js\script.js"></script>
+
 </body>
 
 </html>

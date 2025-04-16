@@ -30,9 +30,21 @@ nav>a {
 
 .banner-img {
     height: 400px;
-    background-image: url(https://picsum.photos/1000);
     background-size: cover;
     background-position: center;
+}
+
+
+.banner-1 {
+    background-image: url(https://picsum.photos/500);
+}
+
+.banner-2 {
+    background-image: url(https://picsum.photos/550);
+}
+
+.banner-3 {
+    background-image: url(https://picsum.photos/575);
 }
 
 main>section {
