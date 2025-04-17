@@ -1,3 +1,5 @@
+
+
 function validateForm() {
     const name = document.forms["message-form"]["full-name"].value;
     const birthDate = document.forms["message-form"]["birth-date"].value;
@@ -51,3 +53,4 @@ setInterval(() => {
     nextBanner();
 }, 3000);
 // Function to toggle the menu
+
